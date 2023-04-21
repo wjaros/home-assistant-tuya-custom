@@ -396,6 +396,7 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
             name="Switch",
             icon="mdi:sprinkler-variant",
         ),
+    ),
     "ggq": (
         SwitchEntityDescription(
             key=DPCode.SWITCH_1,
