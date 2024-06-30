@@ -1,6 +1,6 @@
 {
   "domain": "tuya",
-  "name": "Tuya Custom",
+  "name": "Tuya",
   "version": "2.0.0",
   "documentation": "https://www.home-assistant.io/integrations/tuya",
   "requirements": ["tuya-iot-py-sdk==0.6.6"],
