@@ -517,7 +517,7 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
         ),
         *BATTERY_SENSORS,
     ),
-     # Smart Water Timer
+     # Smart Water Timer common
     "sfkzq": (
         TuyaSensorEntityDescription(
             key=DPCode.WORK_STATE_1,
