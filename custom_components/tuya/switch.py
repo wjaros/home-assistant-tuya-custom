@@ -434,12 +434,12 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
     "sfkzq": (
         SwitchEntityDescription(
             key=DPCode.SWITCH_1,
-            name="Switch",
+            name="Switch 1",
             icon="mdi:sprinkler-variant",
         ),
         SwitchEntityDescription(
             key=DPCode.SWITCH_2,
-            name="Switch",
+            name="Switch 2",
             icon="mdi:sprinkler-variant",
         ),
     ),
