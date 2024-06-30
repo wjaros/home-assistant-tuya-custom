@@ -518,7 +518,7 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
         *BATTERY_SENSORS,
     ),
      # Smart Water Timer common
-    # "sfkzq": (
+    "sfkzq": (
     #     # TuyaSensorEntityDescription(
     #     #     key=DPCode.WORK_STATE_1,
     #     #     name="Mode 1",
@@ -540,22 +540,22 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
     #     #     entity_category=EntityCategory.DIAGNOSTIC,
     #     # ),
     #     # Number of seconds for the watering session. The device will automatically turn off after this time
-    #     TuyaSensorEntityDescription(
-    #         key=DPCode.COUNTDOWN_1,
-    #         name="Countdown 1",
-    #         icon="mdi:timer-outline",
-    #         device_class=TuyaDeviceClass.COUNTDOWN,
-    #         entity_category=EntityCategory.DIAGNOSTIC,
-    #     ),
-    #     TuyaSensorEntityDescription(
-    #         key=DPCode.COUNTDOWN_2,
-    #         name="Countdown 2",
-    #         icon="mdi:timer-outline",
-    #         device_class=TuyaDeviceClass.COUNTDOWN,
-    #         entity_category=EntityCategory.DIAGNOSTIC,
-    #     ),
-    #     *BATTERY_SENSORS,
-    # ),
+        TuyaSensorEntityDescription(
+            key=DPCode.COUNTDOWN_1,
+            name="Countdown 1",
+            icon="mdi:timer-outline",
+            device_class=TuyaDeviceClass.COUNTDOWN,
+            entity_category=EntityCategory.DIAGNOSTIC,
+        ),
+        TuyaSensorEntityDescription(
+            key=DPCode.COUNTDOWN_2,
+            name="Countdown 2",
+            icon="mdi:timer-outline",
+            device_class=TuyaDeviceClass.COUNTDOWN,
+            entity_category=EntityCategory.DIAGNOSTIC,
+        ),
+        *BATTERY_SENSORS,
+    ),
      # Smart Water Timer2
     "ggq": (
         *BATTERY_SENSORS,
