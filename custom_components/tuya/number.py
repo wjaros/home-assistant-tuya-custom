@@ -79,7 +79,7 @@ NUMBERS: dict[str, tuple[NumberEntityDescription, ...]] = {
         ),
         NumberEntityDescription(
             key=DPCode.COUNTDOWN_2,
-            name="Countdown 1",
+            name="Countdown 2",
             icon="mdi:timer",
             entity_category=EntityCategory.CONFIG,
         ),

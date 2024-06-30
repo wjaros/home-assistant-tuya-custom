@@ -408,6 +408,8 @@ class DPCode(StrEnum):
     WORK_MODE = "work_mode"  # Working mode
     WORK_POWER = "work_power"
     WORK_STATE = "work_state"
+    WORK_STATE_1 = "work_state_1"
+    WORK_STATE_2 = "work_state_2"
 
 
 @dataclass
