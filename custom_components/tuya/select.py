@@ -359,43 +359,7 @@ SELECTS: dict[str, tuple[SelectEntityDescription, ...]] = {
             icon="mdi:water-percent",
         ),
     ),
-  # Smart Water Timer common
-#     "sfkzq": (
-#     #     # TuyaSensorEntityDescription(
-#     #     #     key=DPCode.WORK_STATE_1,
-#     #     #     name="Mode 1",
-#     #     #     device_class=TuyaDeviceClass.WORK_STATE,
-#     #     #     entity_category=EntityCategory.DIAGNOSTIC,
-#     #     # ),
-#     #     # TuyaSensorEntityDescription(
-#     #     #     key=DPCode.WORK_STATE_2,
-#     #     #     name="Mode 2",
-#     #     #     device_class=TuyaDeviceClass.WORK_STATE,
-#     #     #     entity_category=EntityCategory.DIAGNOSTIC,
-#     #     # ),
-#     #     # # Total seconds of irrigation. Read-write value; the device appears to ignore the write action (maybe firmware bug)
-#     #     # TuyaSensorEntityDescription(
-#     #     #     key=DPCode.TIME_USE,
-#     #     #     name="Total Watering Time",
-#     #     #     icon="mdi:history",
-#     #     #     state_class=SensorStateClass.TOTAL_INCREASING,
-#     #     #     entity_category=EntityCategory.DIAGNOSTIC,
-#     #     # ),
-#     #     # Number of seconds for the watering session. The device will automatically turn off after this time
-#         TuyaSensorEntityDescription(
-#             key=DPCode.COUNTDOWN_1,
-#             name="Countdown 1",
-#             icon="mdi:timer-outline",
-#             device_class=TuyaDeviceClass.CONFIG,
-#         ),
-#         TuyaSensorEntityDescription(
-#             key=DPCode.COUNTDOWN_2,
-#             name="Countdown 2",
-#             icon="mdi:timer-outline",
-#             device_class=TuyaDeviceClass.CONFIG,
-#         ),
-#     )
-# }
+}
 
 # Socket (duplicate of `kg`)
 # https://developer.tuya.com/en/docs/iot/s?id=K9gf7o5prgf7s
