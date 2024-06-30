@@ -196,6 +196,8 @@ class DPCode(StrEnum):
     CONTROL_BACK = "control_back"
     CONTROL_BACK_MODE = "control_back_mode"
     COUNTDOWN = "countdown"  # Countdown
+    COUNTDOWN_1 = "countdown_1"  # Countdown
+    COUNTDOWN_2 = "countdown_2"  # Countdown
     COUNTDOWN_LEFT = "countdown_left"
     COUNTDOWN_SET = "countdown_set"  # Countdown setting
     CRY_DETECTION_SWITCH = "cry_detection_switch"
