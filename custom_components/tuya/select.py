@@ -284,23 +284,7 @@ SELECTS: dict[str, tuple[SelectEntityDescription, ...]] = {
             entity_category=EntityCategory.CONFIG,
             translation_key="curtain_mode",
         ),
-    ),
-    
-    # Smart Water Timer
-    "sfkzq": (
-        SelectEntityDescription(
-            key=DPCode.COUNTDOWN_1,
-            name="Countdown 1",
-            entity_category=EntityCategory.CONFIG,
-            icon="mdi:timer-cog-outline",
-        ),
-        SelectEntityDescription(
-            key=DPCode.COUNTDOWN_2,
-            name="Countdown 2",
-            entity_category=EntityCategory.CONFIG,
-            icon="mdi:timer-cog-outline",
-        ),
-    )    
+    ),  
     # Humidifier
     # https://developer.tuya.com/en/docs/iot/categoryjsq?id=Kaiuz1smr440b
     "jsq": (
