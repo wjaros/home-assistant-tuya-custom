@@ -445,7 +445,8 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
         SwitchEntityDescription(
             key=DPCode.WEATHER_SWITCH,
             name="Weather switch",
-            icon="mdi:sprinkler-variant",
+            icon="mdi:weather-windy",
+            entity_category=EntityCategory.CONFIG,
         ),
     ),
     # Smart Water Timer2

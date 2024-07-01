@@ -94,6 +94,7 @@ class TuyaDeviceClass(StrEnum):
     MOTION_SENSITIVITY = "tuya__motion_sensitivity"
     RECORD_MODE = "tuya__record_mode"
     RELAY_STATUS = "tuya__relay_status"
+    SFKZQ_BATTERY = "tuya__sfkzq_battery"
     SMART_WEATHER = "tuya__smart_weather"
     STATUS = "tuya__status"
     VACUUM_CISTERN = "tuya__vacuum_cistern"
