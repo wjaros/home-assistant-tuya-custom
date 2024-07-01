@@ -544,7 +544,7 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
             icon="mdi:battery",
             device_class=TuyaDeviceClass.SFKZQ_BATTERY,
             entity_category=EntityCategory.DIAGNOSTIC,
-    ),
+        ),
     ),
      # Smart Water Timer2
     "ggq": (
