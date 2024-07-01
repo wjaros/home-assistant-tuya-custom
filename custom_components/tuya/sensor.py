@@ -531,15 +531,20 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
             device_class=TuyaDeviceClass.WORK_STATE,
             entity_category=EntityCategory.DIAGNOSTIC,
         ),       
-           TuyaSensorEntityDescription(
+        TuyaSensorEntityDescription(
             key=DPCode.SMART_WEATHER,
             name="Smart Weather",
             icon="mdi:weather-night",
             device_class=TuyaDeviceClass.SMART_WEATHER,
             entity_category=EntityCategory.DIAGNOSTIC,
         ),
-        
-        *BATTERY_SENSORS,
+        TuyaSensorEntityDescription(
+            key=DPCode.BATTERY_STATE,
+            name="Battery state",
+            icon="mdi:battery",
+            device_class=TuyaDeviceClass.SFKZQ_BATTERY,
+            entity_category=EntityCategory.DIAGNOSTIC,
+    ),
     ),
      # Smart Water Timer2
     "ggq": (
