@@ -77,17 +77,17 @@ class TuyaDeviceClass(StrEnum):
     """Tuya specific device classes, used for translations."""
 
     AIR_QUALITY = "tuya__air_quality"
-    CURTAIN_MODE = "tuya__curtain_mode"
-    CURTAIN_MOTOR_MODE = "tuya__curtain_motor_mode"
     BASIC_ANTI_FLICKR = "tuya__basic_anti_flickr"
     BASIC_NIGHTVISION = "tuya__basic_nightvision"
     COUNTDOWN = "tuya__countdown"
+    CURTAIN_MODE = "tuya__curtain_mode"
+    CURTAIN_MOTOR_MODE = "tuya__curtain_motor_mode"
     DECIBEL_SENSITIVITY = "tuya__decibel_sensitivity"
     FAN_ANGLE = "tuya__fan_angle"
     FINGERBOT_MODE = "tuya__fingerbot_mode"
-    HUMIDIFIER_SPRAY_MODE = "tuya__humidifier_spray_mode"
     HUMIDIFIER_LEVEL = "tuya__humidifier_level"
     HUMIDIFIER_MOODLIGHTING = "tuya__humidifier_moodlighting"
+    HUMIDIFIER_SPRAY_MODE = "tuya__humidifier_spray_mode"
     IPC_WORK_MODE = "tuya__ipc_work_mode"
     LED_TYPE = "tuya__led_type"
     LIGHT_MODE = "tuya__light_mode"
@@ -399,6 +399,7 @@ class DPCode(StrEnum):
     WATER_SET = "water_set"  # Water level
     WATERSENSOR_STATE = "watersensor_state"
     WEATHER_DELAY = "weather_delay"
+    WEATHER_SWITCH = 'weather_switch'
     WET = "wet"  # Humidification
     WINDOW_CHECK = "window_check"
     WINDOW_STATE = "window_state"
